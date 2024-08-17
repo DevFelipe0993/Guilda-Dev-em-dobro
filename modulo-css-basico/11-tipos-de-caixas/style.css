@@ -1,0 +1,20 @@
+/* h1 {
+    display: inline;
+}
+
+p {
+    display: inline;
+} */
+
+p {
+    font-size: 20px;
+    background-color: aqua;
+}
+
+span {
+    color: blueviolet;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}

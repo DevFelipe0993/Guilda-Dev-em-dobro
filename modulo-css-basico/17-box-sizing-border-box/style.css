@@ -1,0 +1,32 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    list-style-type: none;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.com-border-box {
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.sem-border-box {
+    background-color: brown;
+}
+
+/* largura + padding esquerda - padding direita + border esquerda + border dureita = largura total do elemento 
+100 + 10 + 10+ 10 + 10 = 140 */
