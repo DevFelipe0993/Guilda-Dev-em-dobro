@@ -1,0 +1,17 @@
+/* Efeito cascata */
+.container-cascata {
+    background-color: aqua;
+}
+
+/*  */
+#meu-paragrafo {
+    background-color: blue; 
+}
+
+.container-especifico p {
+    background-color: aqua;
+}
+
+p {
+    background-color: black;
+}
