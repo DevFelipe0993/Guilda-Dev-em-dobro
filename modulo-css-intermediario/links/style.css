@@ -1,0 +1,22 @@
+a {
+    font-weight: bold;
+    cursor: progress;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    background-color: blueviolet;
+    color: antiquewhite;
+}
