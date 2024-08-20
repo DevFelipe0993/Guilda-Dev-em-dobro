@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Milky';
+    src: url(fonts-dafont/MilkyNice.otf), url(fonts-dafont/MilkyNice.ttf) ;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+p {
+    font-family: 'Milky', Courier, monospace;
+    font-size: 30px;
+    font-weight: 100;
+    background-color: lightslategray;
+}
