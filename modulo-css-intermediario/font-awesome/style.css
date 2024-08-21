@@ -1,0 +1,12 @@
+.fa-instagram {
+    font-size: 50px;
+    color: purple;
+    background-color: rgba(137, 43, 226, 0.493);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fa-instagram:hover {
+    color: aqua;
+}
