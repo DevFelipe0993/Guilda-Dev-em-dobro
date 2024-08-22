@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+.paragrafo {
+    font-size: 20px;
+    color: red;
+}
+
+#menu {
+    color: green;
+    margin-left: 100px;
+}
+
+.titulo {
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+.titulo.azul {
+    color: blue;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+p, span {
+    font-size: 18px;
+}
+
+.sobre .texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: purple;
+    
+}
+
+div > p {
+    background-color: aqua;
+    text-align: justify;
+}
+
+div + p {
+    background-color: greenyellow;
+}
+
+a[target=_blank] {
+    color: red;
+}
+
+a[href="google.com"] {
+    color: green;
+}

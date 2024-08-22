@@ -1,0 +1,35 @@
+p::first-letter {
+    font-size: 22px;
+    color: red;
+}
+
+.paragrafo::first-letter {
+    font-size: 22px;
+    color: blue;
+}
+
+#first-line::first-line {
+    color: yellow;
+}
+
+li::marker {
+    color: orange;
+    font-size: 28px;
+}
+
+/* h2::before {
+    content: url(imagens/9373104291661247011-24.png);
+} */
+
+h2::before {
+    content: "";
+    background: url(imagens/21362697191661247270-20.png) center center no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+h3::after {
+    content: url(imagens/9373104291661247011-24.png);
+  
+}
