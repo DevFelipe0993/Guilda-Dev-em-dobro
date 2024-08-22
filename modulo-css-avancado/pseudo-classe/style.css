@@ -1,0 +1,41 @@
+p:first-child {
+    color: aqua;
+}
+
+p:last-child {
+    color: yellow;
+}
+
+p:not(.padrao) { /* TODAS AS CLASSES QUE NÃO FOREM CLASS="PADRAO" RECEBEM A COR   */
+    color: blueviolet;
+}
+
+
+/* odd=impar / even=par */
+/* li:nth-child(odd) { 
+    color: red;
+} */
+
+/* de 2 em 2  */
+/* li:nth-child(2n) {
+    color: red;
+} */
+
+/* define um numero até outro */
+/* li:nth-child(n+2):nth-child(-n+4) {
+    color: red;
+} */
+
+/* seleciona de baixo para cima  */
+li:nth-last-child(2) {
+    color: red;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* estiliza só quando não tem irmao  */
+p:only-child {
+    color: seagreen;
+}
