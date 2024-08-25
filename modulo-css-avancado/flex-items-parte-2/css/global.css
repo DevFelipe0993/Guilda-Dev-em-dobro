@@ -1,5 +1,5 @@
 .container {
-    display: flex;
+    display: flex; 
     max-width: 400px;
     border: 1px solid #ccc;
   }
@@ -9,4 +9,5 @@
     font-size: 20px;
     margin: 5px;
     text-align: center;
+    flex: 1;
   }
