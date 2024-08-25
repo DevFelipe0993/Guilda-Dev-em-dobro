@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, rgb(5, 5, 5), rgb(99, 99, 151));
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px black;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.card .profile-informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .profile-informations img{
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 120px;
+}
+
+p, a {
+ text-decoration: none;
+ transition: .3s ease-in-out;
+}
+
+a:hover {
+    color: red;
+}
+
+#line {
+    border-bottom: 1px solid grey
+}
+
+.city {
+    font-weight: bold;
+}
+
+#color-r {
+    color: red;
+}
+
+#color-d {
+    color: black;
+}
+
+#color-b {
+    color: blue;
+}
+
+.card .profile-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.profile-numbers .info .counter, 
+.card .profile-informations p{
+    font-weight: 700;
+}
+
+.card .profile-informations .age,
+.card .profile-informations .city, 
+.profile-numbers .info .counter-type{
+    color: hsl(227, 10%, 46%);
+}
