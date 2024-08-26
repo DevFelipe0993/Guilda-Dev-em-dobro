@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 45px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 5px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+  }
+  
+.menu li a {
+padding: 10px 5px;
+transition: .4s ease-in-out;
+margin-left: 20px;
+font-size: 18px;
+}
+
+.menu li a:hover {
+    background-color: #5bc241;
+    color: white;
+}
+
+.menu li a.btn {
+    background-color: #5bc241;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 20px;
+}
+  
