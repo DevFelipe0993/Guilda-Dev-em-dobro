@@ -1,0 +1,19 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    background-color: rebeccapurple;
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "videos-destaque propaganda"
+                         "videos-destaque videos-sugeridos";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+}
+
+.video-destaque {
+    grid-area: videos-destaque;
+    background-color: aqua;
+}
