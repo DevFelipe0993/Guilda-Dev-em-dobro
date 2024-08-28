@@ -1,0 +1,22 @@
+# Workshop - como iniciar um projeto sem travar - Passo à Passo
+
+1. análise
+    1. análise do projeto
+    2. anotar as dúvidas e vai tirar as dúvidas com o designer
+    3. olhar as telas e tentar componentizar 
+    4. pensar na estrutura base
+
+1. criar a estrutura base do projeto
+    1. criar estrutura de pastas
+    
+2. Criar o html
+    1. criar o index.html
+    2. criar a estrutura base do html
+    
+3. criar o CSS
+    1. criar o arquivo de reset.css
+    2. criar o arquivo de estilos, estilo.css
+
+1. criar o JS
+    1. se tiver 
+    2. primeiro pensar na lógica pra depois ir para o código
